@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: auto;
+      padding: auto;
+    }
+    h1{
+      text-align: center;
+      color: blue;
+      text-shadow: 3px 3px 3px red;
+      opacity: 1;
+    }
+    p{
+      font-family: 'Courier New', Courier, monospace;
+      font-style: italic;
+      font-size: larger;
+      font-weight: bolder;
+      color: brown;
+      box-shadow: 10px 10px 10px 10px darkgreen;
+    }
+    body{
+        margin: 0;
+        padding: 5px;
+    }
+    .audio{
+        background-color: red;
+        display: flex;
+        box-shadow: 15px 15px 15px 15px burlywood;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid darkgray;
+        margin: 5px 10px;
+        padding: 15px 15px 15px 15px;
+    }
+    #UYI{
+      text-decoration: none;
+      text-transform: uppercase;
+      margin: 5px;
+      padding: 10px;
+      border: 20px;
+      text-align: center;
+      display: flex;
+      float: left;
+      flex-direction: column-reverse;
+    }
+    .video{
+      margin: 10px;
+      border: 35px dashed blue;
+      box-shadow: 10px 10px 10px green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+      flex-wrap: wrap-reverse;
+    }
+  </style>
+</head>
+<body>
+<h1>Multimedia Player</h1>
+<p>Working with video and audio.</p>
+<div class="audio">
+   <a id="UYI" href="https://www.youtube.com/watch?v=FZLadzn5i6Q&list=RD3Cp2QTBZAFQ&index=5" target="_blank">Click me to see video.<audio src="Uyi-Amma-Amitabh-Bhattacharya-Amit-Trivedi-Madhubanti-Bagchi.mp3" loop controls>UYI AMMA from Azaad</audio></a>
+</div>
+<div class="video" poster="finding her.png">
+    <video controls muted>
+        <source src="findingher.mp4" aria-controls="finding her">
+    </video>
+</div>
+</body>
+</html>
+
+
