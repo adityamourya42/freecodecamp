@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: rgb(144, 100, 25);
+    color:#222;
+    max-width: 700px;
+    margin: 0 auto; 
+}
+h1,h2,h3,p{
+    text-align: right;
+    margin: 10px 0;
+}
+p{
+    font-size: 16px;
+    line-height: 2.5;
+}
