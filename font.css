@@ -1,0 +1,12 @@
+body{
+    padding: 15px;
+    border: 20px dashed red;
+    margin: auto;
+    color: rgb(99, 200, 144);
+    background: linear-gradient(120deg, black, blue);  
+}
+.abc{
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 500;
+}
